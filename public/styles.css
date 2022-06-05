@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: white;
+  padding: 0 16px;
+}
+
+header {
+  background-color: white;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+  margin-top: -30;
+  width: 15%;
+}
+
+
+footer {
+  text-align: center;
+  width: 20%;
+  margin: 50px auto 20px auto;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.review {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px white;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto 0 10px;
+  text-align: left;
+}
+.review h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  text-align: left;
+}
+.review p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.product-page h1{
+  display: block;
+  margin: 30px auto auto auto;
+  width: 50%;
+  text-align: center; 
+}
+
+
+
+.product-page h2{
+  width: 80%;
+  margin: 90px auto auto auto;
+  text-align: left;
+}
+
+.product-page ul{
+  width: 50%;
+  margin: 40px -30px 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.product-page p{
+  width: 80%;
+  margin: 40px auto auto auto;
+  text-align: left;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.customer-reviews{
+  margin: 100px auto auto 250px;
+  width: 90%;
+  text-align: left;
+  padding-left: 220px;
+  float: left;
+}
+
+.customer-reviews h1{
+  text-align: left;
+  width: 50%;
+  margin: auto auto -20px 75px;
+}
+
+.Rating {
+  margin-top: -51%;
+  text-align: left;
+  margin-left: 5% ;
+  float: left;
+  width: 50%;
+}
+
+.Rating button{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.Rating h5{
+  display: block;
+  width: 50%;
+  margin: 20px auto -20px 10%;
+}
+
+
+.create-product-review{
+  display: block;
+  margin: 30px auto auto auto;
+  width: 50%;
+  text-align: center;
+}
+
+.create-owner-review{
+  display: block;
+  margin: 30px auto auto auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+.Rating p {
+  display: flex;
+  margin-bottom: -40px;
+}
+
+.progress{
+  width: 200%;
+  margin-bottom: -50px;
+  margin-left: 50px;
+}
+
+.main-div-title{
+  margin: 100px auto auto auto;
+  width: 50%;
+  text-align: center;
+}
+
+.first-table-col{
+  width: 50%;
+}
+
+.second-table-col{
+  width: 58%;
+}
+
+.star-rating{
+  margin-left: 25%;
+  margin-bottom: 35px;
+}
+
+.review-this-product{
+  margin-left: 25%;
+  margin-top: 35px;
+}
+.review-this-product-title{
+  margin-left: 25%;
+  margin-top: 80px;
+}
+
+.btn{
+  margin-left: 25%;
+  margin-top: 25px;
+}
+
+.star{
+  display: block;
+  margin-left: 25%;
+  width: 70%;
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+}
+
+.Rating-Content{
+  width: 30%;
+}
+
+.star #text {
+  width: 20%;
+}
+
+.first-table-col h2{
+  width: 70%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.first-table-col p{
+  width: 70%;
+  line-height: 1.75;
+  font-size: large;
+}
+
+.first-table-col ul{
+  margin-left: 10%;
+  line-height: 2;
+}
+
+.first-table-col img{
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
+  margin-top: 5%;
+  width: 40%;
+}
+
+.second-table-col{
+  padding: 40px;
+  padding-top: 2%;
+  
+}
+
+.second-table-col-left{
+  padding-bottom: 13%;
+}
+
+.table-col{
+  text-align: left;
+}
+
+.table-col h2{
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+
+.table-col h3{
+  text-align: left;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+.text-field{
+  width: 80%;
+}
+
+.text-area{
+  width: 80%;
+  resize: none;
+}
+
+.submit-review{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  width: 20%;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.posted-reviews-row{
+  padding-left: 20%;
+}
+
+.posted-review-heading h2{
+  text-align: left;
+  margin: 100px auto 100px auto;
+}
